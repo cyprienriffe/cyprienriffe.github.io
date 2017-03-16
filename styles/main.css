@@ -1119,7 +1119,7 @@ body {
     color: #fff;
     letter-spacing: 0;
     text-transform: uppercase;
-    padding: 0 50px 0 /*48*/30px;
+    padding: 0 50px 0 48px;
     display: block;
     line-height: 64px
 }
@@ -1127,9 +1127,12 @@ body {
 .nav img {
     position: absolute;
     content: "";
-    top: 35%;
+    top: 50%;
+    left: 12px;
     width: 18px;
     height: 18px;
+    /*margin-top: -9px;*/
+    transform: translateY(-50%);
 }
 
 /*.nav a.before {
